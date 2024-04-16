@@ -1,4 +1,8 @@
-NFS
+# A bash script for configuring a Linux NFS server
+
+## Architectural diagram
+![Diagram](images/diagram.png)
+
 
 ===
 SERVER-SIDE
