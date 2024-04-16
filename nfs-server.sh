@@ -18,3 +18,6 @@ sudo mkdir /mnt/nfs_shares
 
 # Apply the changes
 sudo exportfs -ra
+
+# Restart the NFS service
+sudo systemctl restart nfs-server.service
