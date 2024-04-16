@@ -2,7 +2,7 @@
 
 An NFS (Network File System) server is a system that shares files and directories with other computers on a network using the NFS protocol. NFS allows clients to access files over a network as if they were located on the client's local filesystem.
 
-NFS is commonly used in environments where multiple computers need to access shared files or data, such as in office networks, academic institutions, or data centers. It provides a convenient way to share data between computers running different operating systems, as long as they support the NFS protocol.
+NFS is commonly used in environments where multiple computers need to access shared files or data, such as in office networks, academic institutions, or data centers. It provides a convenient way to share data between computers running different operating systems, as long as they support the [NFS protocol](https://www.rfc-editor.org/rfc/rfc7530).
 
 ![Diagram](images/diagram.png)
 
