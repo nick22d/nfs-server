@@ -1,6 +1,7 @@
 # A bash script for configuring a Linux NFS server
 
-## Architectural diagram
+An NFS (Network File System) server is a system that shares files and directories with other computers on a network using the NFS protocol. NFS allows clients to access files over a network as if they were located on the client's local filesystem.
+
 ![Diagram](images/diagram.png)
 
 
