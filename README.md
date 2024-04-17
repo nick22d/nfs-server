@@ -14,21 +14,6 @@ This script assumes that your Linux server runs systemd, the "grandparent" proce
 
 To deploy this solution, please follow the instructions below.
 
-===
-SERVER-SIDE
-===
-
-mkdir /mnt/nfs_resources 
-
-apt install nfs-server -y
-
-/etc/exports
-
-++++/mnt/nfs_resources 10.1.1.0/24(rw)
-
-exportfs -ra
-
-chown -R ...
 
 ====
 CLIENT-SIDE
