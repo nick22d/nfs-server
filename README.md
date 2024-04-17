@@ -8,9 +8,9 @@ NFS is commonly used in environments where multiple computers need to access sha
 
 ## Prerequisites
 
-This script assumes that your Linux server runs systemd, the "grandparent" process to which most Linux distributions have migrated. If your system uses a different process (i.e. Upstart or SysVInit), this bash script will not work.
+- This script assumes that your Linux server runs systemd, the "grandparent" process to which most Linux distributions have migrated. If your system uses a different process (i.e. Upstart or SysVInit), this bash script will not work.
 
-You have been granted root-level permissions for the commands included in the script.
+- You have been granted root-level permissions for the commands included in the script.
 
 ## Usage 
 
