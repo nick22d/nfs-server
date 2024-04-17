@@ -16,6 +16,10 @@ sudo systemctl enable nfs-server.service
 # The folder containing the shares will be created under the /mnt as a good practice
 sudo mkdir /mnt/nfs_shares
 
+# Copy the contents of the resources folder to the 'NFS shares' folder
+# These are the resources the NFS clients will be able to access
+sudo cp -R ./resources/ /mnt/nfs_shares
+
 # Export the shared resources to the NFS clients
 sudo echo "/mnt/nfs_shares 10.1.1.0/24(ro)" >> /etc/exports
 
