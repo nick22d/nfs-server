@@ -17,16 +17,18 @@ NFS is commonly used in environments where multiple computers need to access sha
 To deploy this solution, please follow the instructions below.
 
 
-====
-CLIENT-SIDE
-====
+## Access the NFS resources from the client
 
-mkdir /mnt/network_shares
+# Create a folder under the /mnt directory
+sudo mkdir /mnt/network_shares
 
-apt install nfs-common -y
+# Install the nfs-common package
+sudo apt install nfs-common -y
 
-mount <ip of server>:/mnt/nfs_resources /mnt/network_shares
+# Mount the shared resources of the NFS server to the client's directory
+sudo mount <ip of server>:/mnt/nfs_shares /mnt/network_shares
 
+# Verify that the shared resources can be accessed
 ls /mnt/network_shares
 
 chown -R ...
