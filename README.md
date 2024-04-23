@@ -8,9 +8,11 @@ NFS is commonly used in environments where multiple computers need to access sha
 
 ## Prerequisites
 
-- This script assumes that your Linux server runs systemd. If your system uses a different init process (i.e. Upstart or SysVInit), this bash script will not work.
+It is assumed that:
 
-- This script assumes that network connectivity between your NFS server and clients has already been established.
+- Your Linux server runs systemd. If your system uses a different init process (i.e. Upstart or SysVInit), this bash script will not work.
+
+- Network connectivity between your NFS server and clients has already been established.
 
 - You have been granted root-level permissions for the commands included in the script.
 
