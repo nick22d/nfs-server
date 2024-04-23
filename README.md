@@ -18,6 +18,30 @@ NFS is commonly used in environments where multiple computers need to access sha
 
 To deploy this solution, please follow the instructions below.
 
+**1)** Clone the repository locally:
+
+```
+git clone https://github.com/nick22d/nfs-server.git
+```
+
+**2)** Navigate into the repository:
+
+```
+cd nfs-server/
+```
+
+**3)** Make the script executable:
+
+```
+sudo chmod +x ./nfs-server.sh
+```
+
+**4)** Run the script:
+
+```
+sudo ./nfs-server.sh
+```
+
 
 ## Access the NFS resources from the client
 
