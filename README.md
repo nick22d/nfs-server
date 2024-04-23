@@ -21,16 +21,26 @@ To deploy this solution, please follow the instructions below.
 
 ## Access the NFS resources from the client
 
-# Create a folder under the /mnt directory
+**1)** Create a folder under the /mnt directory:
+
+```
 sudo mkdir /mnt/network_shares
+```
 
-# Install the nfs-common package
+**2)** Install the nfs-common package:
+
+```
 sudo apt install nfs-common -y
+```
 
-# Mount the shared resources of the NFS server to the client's directory
+**3)** Mount the shared resources of the NFS server to the client's directory:
+
+```
 sudo mount <ip of server>:/mnt/nfs_shares /mnt/network_shares
+```
 
-# Verify that the shared resources can be accessed
+**4)** Verify that the shared resources can be accessed:
+
+```
 ls /mnt/network_shares
-
-chown -R ...
+```
